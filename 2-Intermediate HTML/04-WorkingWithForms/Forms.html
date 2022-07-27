@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Element</title>
+  </head>
+  <body>
+    <h1>Form Basic Elements</h1>
+    <form>
+      <fieldset>
+        <legend>Input Box Element</legend>
+        <p>
+          <label for="input_name">Text: </label>
+          <input
+            type="text"
+            name="input_name"
+            id="input_name"
+            placeholder="Your Good Name"
+          />
+        </p>
+        <p>
+          <label for="input_email">Email: </label>
+          <input
+            type="email"
+            name="input_email"
+            id="input_email"
+            placeholder="test@domain.com"
+          />
+        </p>
+        <label for="input_password">Password: </label>
+        <input
+          type="password"
+          name="input_password"
+          id="input_password"
+          placeholder="********"
+        />
+        <p>
+          <label for="input_number">Number: </label>
+          <input
+            type="number"
+            name="input_number"
+            id="input_password"
+            placeholder="Number"
+          />
+        </p>
+        <p>
+          <label for="input_tel">Phone Number:</label>
+          <input
+            type="tel"
+            name="input_tel"
+            id="input_tel"
+            placeholder="(+977-98********)"
+          />
+        </p>
+      </fieldset>
+      <hr />
+      <fieldset>
+        <legend>Select Form Element</legend>
+        <p>
+          <label for="select_form">Select </label>
+          <select name="select_form" id="select">
+            <optgroup label="Option Grpup 1">
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+              <option value="">Option 4</option>
+            </optgroup>
+            <optgroup label="Option Grpup 2">
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+              <option value="">Option 4</option>
+            </optgroup>
+          </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Radio Button Element</legend>
+        <p>
+            <ul>
+                <li>
+                    <label for="radio_option1">Option 1:</label>
+                    <input type="radio" name="radio" id="radio_option1" checked>
+                </li>
+                <li>
+                    <label for="radio_option2">Option 2:</label>
+                    <input type="radio" name="radio" id="radio_option2">
+                </li>
+            </ul>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Checkbox Elemet</legend>
+        <label for="checkbox_option1">Checkbox 1:</label>
+        <input type="checkbox" name="checkbox_option1" id="checkbox"  >
+        <label for="checkbox_option2">Checkbox 2:</label>
+        <input type="checkbox" name="checkbox_option2" id="checkbox"  >
+        <label for="checkbox_option3">Checkbox3:</label>
+        <input type="checkbox" name="checkbox_option3" id="checkbox">
+      </fieldset>
+    </form>
+  </body>
+</html>
