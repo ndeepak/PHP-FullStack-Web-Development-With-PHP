@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <h2>Drop Us a Line</h2>
+    <p>
+      Your Feedback is really important to us, so please feel free to drop us a
+      line.
+    </p>
+    <form action="result.html" method="get">
+      <table>
+        <tr>
+          <td><label for="your_name">Your Name (optional) </label></td>
+          <td><input type="text" name="your_name" id="your_name" /></td>
+        </tr>
+        <tr>
+          <td><label for="your_email">Your E-mail (optional)</label></td>
+          <td><input type="email" name="your_email" id="your_email" required/></td>
+        </tr>
+        <tr>
+            <td> Subject: </td>
+            <td><input type="text" name="subject" id="subject"></td>
+        </tr>
+        <tr>
+            <td>Your Message: </td>
+            <td><textarea name="message" id="message"  rows="6" cols="21" required></textarea></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Subject</button></td>
+            <td><button type="reset">Reset</button></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
